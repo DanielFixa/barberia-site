@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Corte & Estilo — Barbearia",
   description: "Barbearia com cortes clássicos e modernos. Serviços, produtos e agendamento. São Paulo.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
