@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Corte & Estilo — Barbearia",
   description: "Barbearia com cortes clássicos e modernos. Serviços, produtos e agendamento. São Paulo.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.ico",
   },
 };
 
