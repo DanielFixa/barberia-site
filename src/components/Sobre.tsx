@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Sobre() {
   return (
-    <section id="sobre" className="py-20 md:py-28 relative">
+    <section id="sobre" className="py-20 md:py-28 relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           <motion.div

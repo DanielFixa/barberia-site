@@ -66,7 +66,7 @@ export default function Servicos() {
               transition={{ delay: 0.1 * i }}
               className="group rounded-2xl overflow-hidden bg-stone-900 border border-stone-800 hover:border-amber-500/40 transition-all duration-300"
             >
-              <div className="grid sm:grid-cols-2">
+              <div className="grid sm:grid-cols-2 h-full">
                 <div className="aspect-[4/3] sm:aspect-auto sm:min-h-[200px] overflow-hidden">
                   <img
                     src={item.img}
@@ -92,12 +92,12 @@ export default function Servicos() {
           className="max-w-2xl mx-auto"
         >
           <h3 className="text-xl font-semibold text-stone-100 text-center mb-6">Tabela de Preços</h3>
-          <div className="rounded-2xl overflow-hidden border border-stone-800 bg-stone-900/80">
-            <table className="w-full">
+          <div className="rounded-2xl border border-stone-800 bg-stone-900/80 overflow-x-auto">
+            <table className="w-full min-w-[300px]">
               <thead>
                 <tr className="bg-stone-800/80">
-                  <th className="text-left py-4 px-6 text-amber-500 font-semibold">Serviço</th>
-                  <th className="text-right py-4 px-6 text-amber-500 font-semibold">Valor</th>
+                  <th className="text-left py-4 px-4 sm:px-6 text-amber-500 font-semibold whitespace-nowrap">Serviço</th>
+                  <th className="text-right py-4 px-4 sm:px-6 text-amber-500 font-semibold whitespace-nowrap">Valor</th>
                 </tr>
               </thead>
               <tbody>
@@ -110,8 +110,8 @@ export default function Servicos() {
                     transition={{ delay: 0.05 * i }}
                     className="border-t border-stone-800 hover:bg-stone-800/30 transition-colors"
                   >
-                    <td className="py-4 px-6 text-stone-200">{row.servico}</td>
-                    <td className="py-4 px-6 text-right text-amber-500 font-semibold">{row.valor}</td>
+                    <td className="py-4 px-4 sm:px-6 text-stone-200">{row.servico}</td>
+                    <td className="py-4 px-4 sm:px-6 text-right text-amber-500 font-semibold whitespace-nowrap">{row.valor}</td>
                   </motion.tr>
                 ))}
               </tbody>

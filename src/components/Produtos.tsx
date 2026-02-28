@@ -19,7 +19,7 @@ const produtos = [
     nome: "Cera Modeladora",
     desc: "Estilo e fixação forte",
     preco: "R$ 42",
-    img: "https://images.unsplash.com/photo-1605499466577-2e74a2e2e0e4?w=400&q=80",
+    img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80",
   },
   {
     nome: "Kit Barbear",
